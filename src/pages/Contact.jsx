@@ -282,7 +282,8 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900/20 to-gray-900 text-white py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden"
+      // className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900/20 to-gray-900 text-white py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden"
+      className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white pt-20 pb-16 px-4 sm:px-6 lg:pt-24 overflow-hidden relative"
     >
       {/* Animated Background */}
       <div className="absolute inset-0 overflow-hidden">
@@ -433,7 +434,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-white">Phone</h3>
-                    <p className="text-gray-400">+91 xxxxxxxxxx</p>
+                    <p className="text-gray-400">+91 XXXXXXXXXX</p>
                   </div>
                 </div>
 
@@ -443,7 +444,9 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-white">Email</h3>
-                    <p className="text-gray-400">ry5198564@gmail.com</p>
+                    <p className="text-gray-400">
+                      cyberdeepakrajput97@gmail.com
+                    </p>
                   </div>
                 </div>
 
@@ -453,7 +456,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-white">Location</h3>
-                    <p className="text-gray-400">Mirzapur, UP, India</p>
+                    <p className="text-gray-400">Agra, UP, India</p>
                   </div>
                 </div>
               </div>

@@ -554,7 +554,10 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gradient-to-br from-gray-900 via-blue-900/30 to-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden border-t border-gray-600">
+    <footer
+      // className="bg-gradient-to-br from-gray-900 via-blue-900/30 to-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden border-t border-gray-600"
+      className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white pt-20 pb-16 px-4 sm:px-6 lg:pt-24 overflow-hidden relative"
+    >
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Floating Particles */}
@@ -650,14 +653,16 @@ const Footer = () => {
                 style={{ animationDelay: "600ms" }}
               >
                 <FaEnvelope className="text-red-400 animate-wiggle" />
-                <span className="font-medium">ry5198564@gmail.com</span>
+                <span className="font-medium">
+                  cyberdeepakrajput97@gmail.com
+                </span>
               </div>
               <div
                 className="flex items-center space-x-2 text-gray-300 animate-fadeInUp"
                 style={{ animationDelay: "800ms" }}
               >
                 <FaShieldAlt className="text-green-400 animate-pulse" />
-                <span>Cyber Volunteer - Lalganj, Mirzapur</span>
+                <span>Cyber Volunteer - Agra in UP</span>
               </div>
             </div>
           </div>
@@ -686,7 +691,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 text-sm text-gray-300">
               <span>© {currentYear}</span>
               <span className="font-semibold text-white animate-pulse">
-                CyberRanjeet Yadav
+                CyberDeepakRajput
               </span>
               <span>•</span>
               <span>All rights reserved</span>

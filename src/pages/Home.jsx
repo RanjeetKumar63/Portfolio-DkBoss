@@ -178,7 +178,8 @@ const Home = () => {
   return (
     <main
       id="home"
-      className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900/20 to-gray-900 text-white pt-20 pb-16 px-4 sm:px-6 lg:pt-24 overflow-hidden relative"
+      // className="min-h-screen bg-gradient-to-br from-black-900 via-black-900/20 to-gray-900 text-white pt-20 pb-16 px-4 sm:px-6 lg:pt-24 overflow-hidden relative"
+      className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white pt-20 pb-16 px-4 sm:px-6 lg:pt-24 overflow-hidden relative"
     >
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
@@ -219,14 +220,14 @@ const Home = () => {
             </div>
 
             {/* Description */}
-            <div className="text-gray-900 mb-8 sm:mb-10 leading-relaxed text-lg">
+            <div className="text-white-400 mb-8 sm:mb-10 leading-relaxed text-lg">
               <span className="font-semibold bg-gradient-to-r from-blue-300 to-blue-900 bg-clip-text text-transparent">
                 OSINT & Digital Forensics Specialist
               </span>{" "}
               | Cyber Volunteer at Agra (UP). With expertise in{" "}
-              <span className="text-blue-900 font-medium">Ethical hacking</span>{" "}
+              <span className="text-blue-700 font-medium">Ethical hacking</span>{" "}
               and{" "}
-              <span className="text-cyan-900 font-medium">
+              <span className="text-cyan-700 font-medium">
                 Network Security
               </span>
               , I help organizations strengthen their digital defenses against
@@ -235,7 +236,7 @@ const Home = () => {
 
             {/* Tools & Technologies */}
             <div className="mb-8 sm:mb-10">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center ">
+              <h3 className="text-lg font-semibold text-gray-100 mb-4 flex items-center ">
                 <FaTools className="mr-2 text-blue-700" />
                 Core Technologies
               </h3>

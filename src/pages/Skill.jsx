@@ -324,7 +324,8 @@ const About = () => {
   return (
     <div
       id="skills"
-      className="py-20 bg-gradient-to-br from-gray-900 via-blue-900/20 to-gray-900 text-white relative overflow-hidden"
+      // className="py-20 bg-gradient-to-br from-gray-900 via-blue-900/20 to-gray-900 text-white relative overflow-hidden"
+      className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white pt-20 pb-16 px-4 sm:px-6 lg:pt-24 overflow-hidden relative"
     >
       {/* Animated Background */}
       <div className="absolute inset-0 overflow-hidden">
